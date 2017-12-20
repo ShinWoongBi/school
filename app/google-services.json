@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1087376191102",
+    "firebase_url": "https://taereung-school.firebaseio.com",
+    "project_id": "taereung-school",
+    "storage_bucket": "taereung-school.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087376191102:android:03674aae6e62d535",
+        "android_client_info": {
+          "package_name": "com.warbargic.school"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087376191102-73v828q7i7hqhd9d5quo30ji73vmm58j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.warbargic.school",
+            "certificate_hash": "c164679e0020e14dd2fbfe583c7aacbffe39d156"
+          }
+        },
+        {
+          "client_id": "1087376191102-3ce1p04966em0gcfmej6f3cauo9gqf34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT9rmjsVnuHDHOItEdADobmzw1PNULZGE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087376191102-3ce1p04966em0gcfmej6f3cauo9gqf34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

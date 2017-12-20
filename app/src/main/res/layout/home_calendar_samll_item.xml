@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative"
+    android:paddingBottom="1dp"
+    android:paddingTop="1dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="#3F51B5"
+        android:id="@+id/date"
+        android:text="03/22 |"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/data"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textColor="#363636"
+        android:layout_marginLeft="5dp"
+        android:text=" 토요프로그램"
+        android:layout_alignBaseline="@+id/date"
+        android:layout_alignBottom="@+id/date"
+        android:layout_toEndOf="@+id/date" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/today"
+        android:text="today"
+        android:gravity="left"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="4dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
